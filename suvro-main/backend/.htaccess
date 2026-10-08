@@ -1,0 +1,10 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/suvaasrg/api.backend.suvarx.com"
+PassengerBaseURI "/"
+PassengerNodejs "/home/suvaasrg/nodevenv/api.backend.suvarx.com/20/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+
+# Disable directory browsing
+Options -Indexes
